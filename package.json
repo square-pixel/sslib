@@ -1,0 +1,22 @@
+{
+  "name": "sslib",
+  "version": "0.1.0",
+  "description": "Small and Simple Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/square-pixel/sslib.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/square-pixel/sslib/issues"
+  },
+  "homepage": "https://github.com/square-pixel/sslib#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
