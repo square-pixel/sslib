@@ -1,2 +1,2 @@
-# sslib
-Small and Simple Library
+# sslib — Small and Simple Library
+
