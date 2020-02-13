@@ -5,14 +5,14 @@
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./lib && npx tsc",
+    "prepack": "rm -rf ./lib && npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/square-pixel/sslib.git"
   },
-  "author": "",
+  "author": "Peter Ciszak",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/square-pixel/sslib/issues"
