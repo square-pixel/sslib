@@ -1,5 +1,5 @@
 {
-  "name": "sslib",
+  "name": "@square-pixel/sslib",
   "version": "0.1.2",
   "description": "Small and Simple Library",
   "main": "./lib/index.js",
