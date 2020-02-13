@@ -1,4 +1,3 @@
-
 /**
  * Returns a new function that will call the provided function after
  * the specified delay in milliseconds. The delay is restarted if the
@@ -11,7 +10,7 @@
  * @param max 
  * @returns {(...args:any) => void}
  */
-const debounceFn = (func: Function, ms: number, max: number = 0) => {
+export function debounce(func: Function, ms: number, max: number = 0) {
     let timerId: any = null,
         maxTimerId: any = null;
 
@@ -36,5 +35,3 @@ const debounceFn = (func: Function, ms: number, max: number = 0) => {
         timerId = setTimeout(fufill, ms);
     }
 }
-
-export { debounceFn };
