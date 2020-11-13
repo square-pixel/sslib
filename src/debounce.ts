@@ -22,16 +22,16 @@ export function debounce(func: Function, ms: number, max: number = 0) {
     };
 
     return (...args: any) => {
-        const fufill = () => {
+        const fulfill = () => {
             reset();
             func.apply(null, args);
         };
         if (max && !maxTimerId) {
-            maxTimerId = setTimeout(fufill, max);
+            maxTimerId = setTimeout(fulfill, max);
         }
         if (timerId) {
             clearTimeout(timerId);
         }
-        timerId = setTimeout(fufill, ms);
+        timerId = setTimeout(fulfill, ms);
     }
 }

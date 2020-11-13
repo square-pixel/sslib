@@ -4,6 +4,7 @@
         "declaration": true,
         "noImplicitAny": true,
         "strict": true,
+        "sourceMap": true,
         "module": "commonjs",
         "target": "ES2020",
         "esModuleInterop": true,
