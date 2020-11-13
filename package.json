@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/square-pixel/sslib#readme",
   "devDependencies": {
-    "typescript": "^3.7.5"
+    "typescript": "^4.0.5"
   }
 }
